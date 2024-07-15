@@ -1,0 +1,45 @@
+
+T4CF0 000:174 SEGGER J-Link V6.50b Log File (0000ms, 0009ms total)
+T4CF0 000:174 DLL Compiled: Sep  6 2019 17:57:35 (0000ms, 0009ms total)
+T4CF0 000:174 Logging started @ 2024-03-29 00:57 (0001ms, 0010ms total)
+T4CF0 000:175 JLINK_SetWarnOutHandler(...) (0000ms, 0010ms total)
+T4CF0 000:175 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+Hardware: V9.20
+S/N: 25952337
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0044ms, 0054ms total)
+T4CF0 000:175 WEBSRV Webserver running on local port 19080 (0044ms, 0054ms total)
+T4CF0 000:175   returns O.K. (0044ms, 0054ms total)
+T4CF0 000:219 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0054ms total)
+T4CF0 000:219 JLINK_TIF_GetAvailable(...) (0000ms, 0054ms total)
+T4CF0 000:219 JLINK_SetErrorOutHandler(...) (0000ms, 0054ms total)
+T4CF0 000:219 JLINK_ExecCommand("ProjectFile = "E:\360MoveData\Users\HZHY\Desktop\DC-w550\Pro413xin-2403281016\project\JLinkSettings.ini"", ...). Ref file found at: D:\keil\ARM\Segger\JLinkDevices.ref (0004ms, 0058ms total)
+T4CF0 000:219 XML referenced by ref file: d:\JLink\JLinkDevices.xml (0004ms, 0058ms total)
+T4CF0 000:219 d:\JLink\JLinkDevices.xml evaluated successfully. (0008ms, 0062ms total)
+T4CF0 000:219 Device "ARM7" selected.  returns 0x00 (0184ms, 0238ms total)
+T4CF0 000:403 JLINK_ExecCommand("Device = STM32F413VGTx", ...). Device "ARM7" selected.  returns 0x00 (0001ms, 0239ms total)
+T4CF0 000:404 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0239ms total)
+T4CF0 000:404 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetDLLVersion()  returns 65002 (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetFirmwareString(...) (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetDLLVersion()  returns 65002 (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetCompileDateTime() (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetFirmwareString(...) (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0239ms total)
+T4CF0 000:405 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0240ms total)
+T4CF0 000:406 JLINK_SetSpeed(1000) (0001ms, 0241ms total)
+T4CF0 000:407 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0241ms total)
+T4CF0 000:407 JLINK_Reset()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWDJLINK_GetId()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWD  returns 0x00000000 (0062ms, 0366ms total)
+T4CF0 000:532 JLINK_GetId()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWD  returns 0x00000000 (0063ms, 0429ms total)
+T4CF0 000:604 JLINK_GetFirmwareString(...) (0000ms, 0429ms total)
+T4CF0 001:646 JLINK_Close() (0011ms, 0440ms total)
+T4CF0 001:646  (0011ms, 0440ms total)
+T4CF0 001:646 Closed (0011ms, 0440ms total)
